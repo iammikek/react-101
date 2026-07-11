@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { listCategories } from '../api/categories'
 import { createItem, deleteItem, getItem, updateItem } from '../api/items'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../context/useAuth'
 import type { Category, Item } from '../types/catalog'
 
 export function ItemDetailPage() {

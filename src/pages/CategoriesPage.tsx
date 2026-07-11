@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { createCategory, deleteCategory, listCategories } from '../api/categories'
 import { Pagination } from '../components/Pagination'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../context/useAuth'
 import type { Category } from '../types/catalog'
 
 const PAGE_SIZE = 10

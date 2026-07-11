@@ -5,7 +5,7 @@ import { listItems } from '../api/items'
 import { ItemFiltersForm } from '../components/ItemFiltersForm'
 import { ItemTable } from '../components/ItemTable'
 import { Pagination } from '../components/Pagination'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../context/useAuth'
 import type { Category, Item, ItemFilters } from '../types/catalog'
 
 const PAGE_SIZE = 10
