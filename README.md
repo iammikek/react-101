@@ -112,18 +112,18 @@ Query params on `GET /items`: `skip`, `limit`, `category_id`, `name_contains`, `
 
 ### API backends (pair with this client)
 
-| Repo                                                           | Port  | Type     | Stack               |
-| -------------------------------------------------------------- | ----- | -------- | ------------------- |
-| [fastAPI-101](https://github.com/iammikek/fastAPI-101)         | 8000  | API-only | FastAPI, SQLAlchemy |
-| [django-101](https://github.com/iammikek/django-101)           | 8001  | Monolith | Django + DRF + shop |
-| [symfony-101](https://github.com/iammikek/symfony-101)         | 8002  | Monolith | Symfony + shop      |
-| [laravel-101](https://github.com/iammikek/laravel-101)         | 8003  | Monolith | Laravel + shop      |
-| [framework-x-101](https://github.com/iammikek/framework-x-101) | 8004  | Monolith | Framework X + shop  |
-| [orchestr-101](https://github.com/iammikek/orchestr-101)       | 8005  | Monolith | Orchestr + shop     |
-| [nest-101](https://github.com/iammikek/nest-101)               | 8006  | API-only | NestJS, TypeScript  |
-| [express-101](https://github.com/iammikek/express-101)         | 8007  | API-only | Express, Vitest     |
-| [go-101](https://github.com/iammikek/go-101)                   | 8000* | API-only | Gin, GORM           |
-| [fortran-101](https://github.com/iammikek/fortran-101)         | 8008  | API-only | Fortran, fpm        |
+| Repo                                                           | Port  | Type     | Stack                    |
+| -------------------------------------------------------------- | ----- | -------- | ------------------------ |
+| [fastAPI-101](https://github.com/iammikek/fastAPI-101)         | 8000  | API-only | FastAPI, SQLAlchemy      |
+| [django-101](https://github.com/iammikek/django-101)           | 8001  | Monolith | Django + DRF + shop      |
+| [symfony-101](https://github.com/iammikek/symfony-101)         | 8002  | Monolith | Symfony + shop           |
+| [laravel-101](https://github.com/iammikek/laravel-101)         | 8003  | Monolith | Laravel + shop           |
+| [framework-x-101](https://github.com/iammikek/framework-x-101) | 8004  | Monolith | Framework X + shop       |
+| [orchestr-101](https://github.com/iammikek/orchestr-101)       | 8005  | Monolith | Orchestr + shop          |
+| [nest-101](https://github.com/iammikek/nest-101)               | 8006  | API-only | NestJS, TypeScript       |
+| [express-101](https://github.com/iammikek/express-101)         | 8007  | API-only | Express, Vitest          |
+| [go-101](https://github.com/iammikek/go-101)                   | 8000* | API-only | Gin, GORM                |
+| [fortran-101](https://github.com/iammikek/fortran-101)         | 8008  | API-only | Fortran, fpm             |
 | [java-101](https://github.com/iammikek/java-101)               | 8009  | API-only | Spring Boot, JPA, Flyway |
 
 \* go-101 also uses port 8000 — run one backend at a time, or change port in config.
