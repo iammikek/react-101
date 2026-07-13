@@ -135,6 +135,7 @@ Query params on `GET /items`: `skip`, `limit`, `category_id`, `name_contains`, `
 | [flutter-101](https://github.com/iammikek/flutter-101) | Mobile / desktop | Flutter (iOS, macOS, Android) |
 | **react-101**                                          | Web browser      | React 19, Vite, Vitest        |
 | [vue-101](https://github.com/iammikek/vue-101)         | Web browser      | Vue 3, Vite, Pinia            |
+| [alpine-101](https://github.com/iammikek/alpine-101)         | Web browser      | Alpine.js, Vite, Vitest       |
 
 ### Suggested pairing
 
